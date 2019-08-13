@@ -21,9 +21,9 @@
   },
   "homepage": "https://github.com/sntran/kmz-geojson",
   "dependencies": {
+    "node-unzip-2": "^0.2.8",
     "request": "^2.58.0",
     "togeojson": "github:Amritpal-sdm/togeojson",
-    "unzip2": "^0.2.5",
     "xmldom": "^0.1.19"
   }
 }
