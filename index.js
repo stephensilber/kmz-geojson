@@ -6,7 +6,7 @@
 
   var request = require("request"),
     togeojson = require('togeojson'),
-    unzip = require('unzip2'),
+    unzip = require('node-unzip-2'),
     xmldom = new (require('xmldom').DOMParser)();
 
   KMZGeoJSON.toKML = function(path, callback) {
